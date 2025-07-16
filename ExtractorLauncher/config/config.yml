@@ -363,7 +363,7 @@ mqtt:
     # Maximum number of data points in a single chunk (default: 10000)
     max-chunk-size: 500
     # Minimum number of data points in a single chunk (default: 10)
-    min-chunk-size: 10
+    min-chunk-size: 50
     
     # Maximum number of concurrent chunk processing for parallel MQTT publishing (default: 4)
     # Higher values may improve throughput but can overwhelm the MQTT broker
